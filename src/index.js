@@ -1,5 +1,4 @@
-import "./index.css";
-import "./assets/css/share.css";
+import "./styles/index.css";
 
 import React from "react";
 import ReactDOM from "react-dom";

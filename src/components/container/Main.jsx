@@ -1,7 +1,8 @@
 import React from "react";
+import Folder from "../presentational/Folder";
 
-const Main = () => {
-  return <div />;
+const Main = ({ data }) => {
+  return <Folder name="Root" files={data} />;
 };
 
 export default Main;
