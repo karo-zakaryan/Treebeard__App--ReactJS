@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./components/container/Header";
+import Main from "./components/container/Main";
 
-const App = () => {
-  return <div className="App" />;
-};
+const App = () => (
+  <>
+    <Header />
+    <Main />
+  </>
+);
 
 export default App;
