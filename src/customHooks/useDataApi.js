@@ -15,7 +15,7 @@ export const useDataApi = () => {
         setTimeout(() => {
           setData(fakeData);
           setIsLoading(false);
-        }, 1000);
+        }, 2500);
       } catch (error) {
         setIsError(true);
       }
